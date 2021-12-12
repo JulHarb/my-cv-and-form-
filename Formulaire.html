@@ -35,7 +35,7 @@
       Adresse postale : <input type="number" name="adress" id="adress" placeholder="ex : 3 rue de la Valise" required>
     </label><br><br>
     <label for="zipcode">
-      Code postale : <input type="number" name="zipcode" id="zipcode" placeholder="ex : 59000" pattern="[0-9]{5}" required>
+      Code postale : <input type="number" name="zipcode" id="zipcode" placeholder="ex : 59000" pattern="[0-9]{5}" min="10000" max="99999" required>
     </label><br><br>
     <label for="City">
       Ville : <input type="text" name="city" id="city" placeholder="ex : Los Angeles" required>
@@ -50,10 +50,10 @@
         Pays de naissance : <input type="text" name="paysdenaissance" id="paysdenaissance" placeholder="ex : Hongrie" required>
     </label><br><br>
     <label for="scnumber">
-        Numéro de sécurité social : <input type="number" name="scnumber" id="scnumber" placeholder="ex : 1 87 05 59 123 456" pattern="[0-9]{13}" required>
+        Numéro de sécurité social : <input type="number" name="scnumber" id="scnumber" placeholder="ex : 1 87 05 59 123 456" pattern="[0-9]{13}" min="0" max="9 99 99 99 999 999" required>
     </label><br><br>
     <label for="passport number">
-        Numéro de passeport : <input type="number" name="passport number" id="passport number" placeholder=" 479824652764" pattern="[0-9]{13}" required>
+        Numéro de passeport : <input type="number" name="passport number" id="passport number" placeholder=" 479824652764" pattern="[0-9]{13}" min="0" max="9 99 99 99 999 999" required>
     </label><br><br>
     <label for="datedelivrancepasseport">
         Date de délivrance du passeport : <input type="date" name="datedelivrancepasseport" id="datedelivrancepasseport" required>
@@ -61,7 +61,7 @@
     <label for="validdatepassport">
         Date de validité du passeport : <input type="date" name="validdatepassport" id="validdatepassport" required>
     </label><br><br>
-    <label for="submit"><input type="submit" value="Envoyez les données"></input></label>
+    <label for="submit"><input type="submit" value="Envoyez les données"></label>
 </form>   
 <br><p>Nous vous recontacterons très bientôt une fois les données reçues et traitées. <br> Merci</p>
 </body>

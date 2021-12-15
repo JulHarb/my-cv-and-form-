@@ -25,14 +25,17 @@
     <label for="age">
         Age : <input type="number" name="age" id="age" placeholder="ex : 107" pattern="[0-9]{3}" min="18" max="130" required>
     </label> <br><br><br>
-    <label for="Homme">
-        Sexe : <br><br> Homme <input type="radio" name="gender" id="Homme"></label>
-    <label for="Femme">
-        Femme <input type="radio" name="gender" id="Femme"></label><br><br><br>
+    <p>Sexe :</p><br><br>
    
+    <label> Homme <input type="radio" name="gender"></label> 
+
+    
+    <label for="Femme">
+         <input type="radio" name="gender" id="Femme"></label><br><br><br>
+
         <label for="mail">Adresse mail : <input type="email" name="mail" id="mail" placeholder="ex : RobHuang@gmail.com" pattern=".+@gmail\.com|.+@caramail.com|.+@simplon.com|.+@julienmail.fr" required></label><br><br>
     <label for="adress">
-      Adresse postale : <input type="number" name="adress" id="adress" placeholder="ex : 3 rue de la Valise" required>
+      Adresse postale : <input type="text" name="adress" id="adress" placeholder="ex : 3 rue de la Valise" required>
     </label><br><br>
     <label for="zipcode">
       Code postale : <input type="number" name="zipcode" id="zipcode" placeholder="ex : 59000" pattern="[0-9]{5}" min="10000" max="99999" required>
@@ -48,19 +51,19 @@
     </label><br><br>
     <label for="paysdenaissance">
         Pays de naissance : <input type="text" name="paysdenaissance" id="paysdenaissance" placeholder="ex : Hongrie" required>
-    </label><br><br>
+    </label>
     <label for="scnumber">
         Numéro de sécurité social : <input type="number" name="scnumber" id="scnumber" placeholder="ex : 1 87 05 59 123 456" pattern="[0-9]{13}" min="0" max="9 99 99 99 999 999" required>
-    </label><br><br>
+    </label>
     <label for="passport number">
         Numéro de passeport : <input type="number" name="passport number" id="passport number" placeholder=" 479824652764" pattern="[0-9]{13}" min="0" max="9 99 99 99 999 999" required>
-    </label><br><br>
+    </label>
     <label for="datedelivrancepasseport">
         Date de délivrance du passeport : <input type="date" name="datedelivrancepasseport" id="datedelivrancepasseport" required>
-    </label><br><br>
+    </label>
     <label for="validdatepassport">
         Date de validité du passeport : <input type="date" name="validdatepassport" id="validdatepassport" required>
-    </label><br><br>
+    </label>
     <label for="submit"><input type="submit" value="Envoyez les données"></label>
 </form>   
 <br><p>Nous vous recontacterons très bientôt une fois les données reçues et traitées. <br> Merci</p>
